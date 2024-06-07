@@ -57,3 +57,8 @@ function consultarAlunoPorNome() {
         console.error('Erro ao buscar alunos: ', error);
     });
 }
+
+function limparConsulta() {// usado para limpar a lista.
+    const lista = document.getElementById('listaAlunos');
+    lista.innerHTML = '';
+}
